@@ -201,8 +201,7 @@ chmod +x /usr/local/bin/set-db-env
         certificate = acm.Certificate.from_certificate_arn(
             self,
             "Certificate",
-            # certificate_arn="arn:aws:acm:ap-northeast-1:012345678901:certificate/your-certificate-arn"  # 実際の証明書ARNに置き換えてください
-            certificate_arn="arn:aws:acm:ap-northeast-1:637423399875:certificate/f5e47e39-1406-43a0-ab21-6cb270d79076"  # 実際の証明書ARNに置き換えてください
+            certificate_arn="arn:aws:acm:ap-northeast-1:012345678901:certificate/your-certificate-arn"  # 実際の証明書ARNに置き換えてください
         )
 
         # ALB
